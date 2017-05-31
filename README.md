@@ -2,6 +2,7 @@ LiluFriend
 ==========
 
 A helper of [Lilu](https://github.com/vit9696/Lilu) for those who prefer to leave everything inside ``/Library/Extensions`` and ``/System/Library/Extensions``.
+
 ***Note: This is NOT a plugin of Lilu!***
 
 #### Technical Backgrounds
