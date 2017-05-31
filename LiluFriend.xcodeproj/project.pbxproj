@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		832787AC1EDD9B7000E4FB82 /* LiluFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832787AA1EDD9B7000E4FB82 /* LiluFriend.cpp */; };
 		832787AD1EDD9B7000E4FB82 /* LiluFriend.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 832787AB1EDD9B7000E4FB82 /* LiluFriend.hpp */; };
-		83DC3C8B1EDEE83B00EAE224 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83DC3C891EDEE83B00EAE224 /* LICENSE */; };
-		83DC3C8C1EDEE83B00EAE224 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83DC3C8A1EDEE83B00EAE224 /* README.md */; };
 		83EA53BF1EDED6A100B2293D /* LegacyIOService.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EA53BD1EDED6A100B2293D /* LegacyIOService.h */; };
 		83EA53C01EDED6A100B2293D /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA53BE1EDED6A100B2293D /* libkmod.a */; };
 /* End PBXBuildFile section */
@@ -154,8 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DC3C8B1EDEE83B00EAE224 /* LICENSE in Resources */,
-				83DC3C8C1EDEE83B00EAE224 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +288,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
 				INFOPLIST_FILE = LiluFriend/Info.plist;
-				INSTALL_PATH = /System/Library/Extensions;
+				INSTALL_PATH = /Library/Extensions;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LiluFriend",
@@ -354,7 +350,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
 				INFOPLIST_FILE = LiluFriend/Info.plist;
-				INSTALL_PATH = /System/Library/Extensions;
+				INSTALL_PATH = /Library/Extensions;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LiluFriend",
