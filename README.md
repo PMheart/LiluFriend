@@ -17,6 +17,7 @@ Secondly, LiluFriend treats all Lilu and its plugins as LiluFriend's dependencie
 1. Download the pre-compiled binary from [Releases](https://github.com/PMheart/LiluFriend/releases), or compile it yourself by downloading source code.
 2. Open ``LiluFriend.kext/Contents/Info.plist`` and locate to ``OSBundleLibraries``, you'll find two examples which are ``as.vit9696.Lilu`` and ``org.vanilla.driver.CoreDisplayFixup``
 3. Add your desired plugins here. (Check the ``Info.plist`` of the plugin and gather its ``CFBundleIdentifier``)
+
 Note: As for versions, check ``Info.plist`` of each plugin, firstly search for ``OSBundleCompatibleVersion``, if it exists, then use such value, otherwise search for ``CFBundleVersion`` and use this value instead.
 4. Save your edited Info.plist and install ``LiluFriend.kext`` to ``/Library/Extensions`` and ``/System/Library/Extensions``, you can also let your bootloader inject it if you prefer not to install any kext on system locations for those who want Lilu and its plugins always work fine.
 
