@@ -23,7 +23,9 @@ Note: As for versions, check ``Info.plist`` of each plugin, firstly search for `
 4. Save your edited Info.plist and install ``LiluFriend.kext`` to ``/Library/Extensions`` and ``/System/Library/Extensions``, you can also let your bootloader inject it if you prefer not to install any kext on system locations for those who want Lilu and its plugins always work fine.
 
 #### Support and Discussion
-- TO BE DONE for the time being.
+- [InsanelyMac topic](http://www.insanelymac.com/forum/topic/324146-lilufriend-fixing-lilu-does-not-function-correctly-under-system-locations) in English
+- [PCBeta aka 远景论坛](http://bbs.pcbeta.com/viewthread-1743744-1-1.html) in Chinese/中文
+- [GitHub Issues](https://github.com/PMheart/LiluFriend/issues)
 
 #### Credits 
 - [Apple](https://www.apple.com) for macOS  
