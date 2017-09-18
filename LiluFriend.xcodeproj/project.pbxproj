@@ -296,7 +296,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = com.apple.security.LiluFriend;
-				MODULE_VERSION = 1.0;
+				MODULE_VERSION = 1.1.0;
 				MTL_ENABLE_DEBUG_INFO = no;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
@@ -358,7 +358,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = com.apple.security.LiluFriend;
-				MODULE_VERSION = 1.0;
+				MODULE_VERSION = 1.1.0;
 				MTL_ENABLE_DEBUG_INFO = no;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (

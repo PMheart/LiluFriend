@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AppleSecurityExtension</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -38,8 +40,6 @@
 			<string>IOKit</string>
 		</dict>
 	</dict>
-	<key>AppleSecurityExtension</key>
-	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 Vanilla. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
@@ -54,10 +54,6 @@
 		<string>12.0.0</string>
 		<key>com.apple.kpi.unsupported</key>
 		<string>12.0.0</string>
-		<key>as.vit9696.Lilu</key>
-		<string>1.1.0</string>
-		<key>org.vanilla.driver.CoreDisplayFixup</key>
-		<string>1.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
